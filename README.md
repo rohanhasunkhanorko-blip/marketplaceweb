@@ -1,42 +1,33 @@
-# sv
+# Gucci Marketplace — SvelteKit + Tailwind + SQLite
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A luxury fashion marketplace template inspired by Gucci, built with a modern full-stack:
 
-## Creating a project
+- **SvelteKit** — Frontend + Backend (server-side rendering)
+- **Tailwind CSS v4** — Styling via Vite plugin
+- **SQLite** (better-sqlite3) — Lightweight database, zero config
+- **Node.js** — Production server via adapter-node
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Quick Start
 
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.12.5 create --template minimal --types jsdoc --no-install .
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
+npm install
+copy .env.example .env
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Open http://localhost:5173
 
-To create a production version of your app:
+## Build for Production
 
-```sh
+```bash
 npm run build
+node build/index.js
 ```
 
-You can preview the production build with `npm run preview`.
+## Full Manual
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+See [`MANUAL.md`](./MANUAL.md) for complete backend control instructions, deployment guide, and command reference.
+
+## License
+
+MIT
