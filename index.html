@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Fashion Template - Gucci Style</title>
+    <!-- Importing elegant fonts to give that luxury brand feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========================================== -->
+    <!-- NAVIGATION BAR -->
+    <!-- ========================================== -->
+    <!-- 
+      This is the top navigation bar. It stays fixed at the top.
+      On desktop, it shows menus. On mobile, the hamburger menu icon will appear.
+    -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <!-- Add search icon or extra menu items here -->
+            <a href="category.html" class="nav-link">Gifts</a>
+            <a href="category.html" class="nav-link">Women</a>
+            <a href="category.html" class="nav-link">Men</a>
+        </div>
+
+        <div class="nav-brand">
+            <!-- REPLACE THIS TEXT WITH YOUR LOGO IMAGE -->
+            <!-- Example: <img src="your-logo.png" alt="Brand Logo"> -->
+            <a href="index.html">
+                <h1>LUXURY BRAND</h1>
+            </a>
+        </div>
+
+        <div class="nav-right">
+            <!-- Add account, wishlist, and cart icons here -->
+            <a href="#" class="nav-link">Search</a>
+            <a href="#" class="nav-link">Profile</a>
+            <a href="#" class="nav-link">Cart (0)</a>
+        </div>
+
+        <!-- Mobile menu toggle (Visible only on smaller screens) -->
+        <button class="mobile-menu-btn">Menu</button>
+    </nav>
+
+    <!-- ========================================== -->
+    <!-- HERO SECTION (Full Screen) -->
+    <!-- ========================================== -->
+    <!-- 
+      This is the main banner when the site loads. 
+      Usually contains a high-quality video or an impactful image.
+      TO CHANGE BACKGROUND: Update the .hero class in styles.css to set your background image/video.
+    -->
+    <header class="hero">
+        <div class="hero-content">
+            <!-- Hero Title -->
+            <h2 class="hero-title">The Spring Summer Collection</h2>
+            <!-- Hero Call to Action Buttons -->
+            <div class="hero-actions">
+                <a href="#" class="btn btn-primary">Discover More</a>
+                <a href="#" class="btn btn-secondary">Shop Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- FEATURED GRID SECTION -->
+    <!-- ========================================== -->
+    <!-- 
+      Use this section to highlight different collections or categories.
+      It automatically stacks on mobile and forms a grid on desktop.
+    -->
+    <section class="grid-section">
+        <!-- Grid Item 1 -->
+        <div class="grid-item">
+            <!-- REPLACE SRC WITH YOUR IMAGE URL -->
+            <!-- <img src="your-image-1.jpg" alt="Collection 1" class="grid-image"> -->
+            <div class="placeholder-image">Image Container 1</div>
+            <div class="grid-overlay">
+                <h3>Women's Handbags</h3>
+                <a href="#" class="btn btn-light">Shop Required</a>
+            </div>
+        </div>
+
+        <!-- Grid Item 2 -->
+        <div class="grid-item">
+            <!-- REPLACE SRC WITH YOUR IMAGE URL -->
+            <!-- <img src="your-image-2.jpg" alt="Collection 2" class="grid-image"> -->
+            <div class="placeholder-image">Image Container 2</div>
+            <div class="grid-overlay">
+                <h3>Men's Travel</h3>
+                <a href="#" class="btn btn-light">Discover</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CAROUSEL / HORIZONTAL SCROLL SECTION -->
+    <!-- ========================================== -->
+    <!-- 
+      This is perfect for displaying individual products (shoes, accessories, etc.).
+      Scrolls horizontally on mobile.
+    -->
+    <section class="product-slider-section">
+        <h3 class="section-heading">Featured Pieces</h3>
+        <div class="product-slider">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <!-- <img src="product-1.jpg" alt="Product"> -->
+                <div class="product-placeholder">Product Image</div>
+                <div class="product-info">
+                    <h4>Signature Loafer</h4>
+                    <p>$950</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <!-- <img src="product-2.jpg" alt="Product"> -->
+                <div class="product-placeholder">Product Image</div>
+                <div class="product-info">
+                    <h4>Canvas Tote Bag</h4>
+                    <p>$1,450</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <!-- <img src="product-3.jpg" alt="Product"> -->
+                <div class="product-placeholder">Product Image</div>
+                <div class="product-info">
+                    <h4>Silk Scarf</h4>
+                    <p>$495</p>
+                </div>
+            </div>
+
+            <!-- Add more .product-card elements as needed -->
+
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- FOOTER SECTION -->
+    <!-- ========================================== -->
+    <!-- 
+      Contains important links, social media, and newsletter signup.
+      Crucial for e-commerce sites.
+    -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Services</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Care Instructions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>The Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="footer-column newsletter">
+                <h4>Sign Up for Updates</h4>
+                <p>By entering your email address below, you consent to receiving our newsletter with access to our
+                    latest collections, events and initiatives.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">→</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LUXURY BRAND. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include interactive scripts -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

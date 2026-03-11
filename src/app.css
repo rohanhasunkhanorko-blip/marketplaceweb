@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Custom utility overrides or global styles for the Gucci aesthetic */
+:root {
+    --primary-color: #111111;
+    --background-color: #f7f7f7;
+    --text-color: #222222;
+    --white: #ffffff;
+    --transition-speed: 0.3s;
+    --font-heading: 'Playfair Display', serif;
+    --font-ui: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--font-ui);
+    color: var(--text-color);
+    background-color: var(--white);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
